@@ -1,6 +1,6 @@
 # GREN
-GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in Chest X-rays
+## GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in Chest X-rays
 
-Abstract
+## Abstract
 
 Locating diseases in chest X-ray images with few careful annotations has been a research hotspot in computer-assisted diagnosis. Recent works have tackled this problem with innovative weakly-supervised algorithms, however, the performance of these methods on X-ray analysis is not as good as in the general computer vision tasks. One reason is that they mostly treated each image individually and overlooked the relationship between X-rays. We argue that the explicit modelling of the image-to-image relationship (similarity) is very useful, especially when the supervision is insufficient. Motivated by this, we propose the Graph-Regularized Embedding Network (GREN), an end-to-end framework excavating the structural relationship between X-rays. Different from the attention-based methods, GREN represents the inter-image relationship as in-batch graphs, where each X-ray image is regarded as a node and the distance between X-ray images is defined as an edge. The graphs are used as regularizers to help preserve the structural similarity between image pairs in the embedding space. By means of this, our approach achieves the state-of-the-art result on NIH chest X-ray dataset for disease localization with limited supervision. Our codes are accessible online.
